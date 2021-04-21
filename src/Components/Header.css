@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+  .container{
+      border: 2px solid black;
+      height: 740px;
+  }
+  p{
+      font-size: x-large;
+      /* text-align: center; */
+      margin-left: 10%;
+      padding-top: 15px;
+  }
+.main{
+    justify-content: space-around;
+    display: flex;   
+    padding-top: 4%;
+}
+.six_seat{
+    display: flex;
+}
+.six{
+    border: 2px solid black;
+    margin-left: 5px;
+    width: 160px;
+    height: 60px;
+}
+.four{
+    border: 2px solid black;
+    width: 160px;
+    height: 60px;
+}
+
+.Buttons{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 4%;
+
+}
+
+.btn{
+    width: 40px;
+    height: 40px;
+    border-radius: 40px ;
+    border: 1px solid orangered;
+}
+
+.responsive{
+    height: 80px;
+    width: 80px;
+    border-radius: 50px ;
+}
+
+.last_btn{
+    display: flex;
+   float: right;
+   position: absolute;
+   right: 1%;
+   bottom: 5%;
+}
+
+
+
+
+
+@media (max-width:500px){
+    .four{
+        /* border: 2px solid red; */
+        width:100px;
+        height: 40px;
+    }
+
+    .six{
+        /* border: 2px solid red; */
+        width:100px;
+        height: 40px;
+    }
+
+    .Buttons h1{
+        /* border: 2px solid black; */
+        font-size: 20px;
+        margin-left: -1rem;
+    }
+
+
+.btn {
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+   
+}
+
+.last_btn{
+    position: absolute;
+    bottom: -5%;
+}
+
+}
+
+@media (max-width:380px){
+
+    .like{
+        border: 2px solid red;
+        width: 80px;
+        height: 20px ;
+        margin-left: 15px ;
+        position: relative;
+    }
+
+    .last_btn{
+        font-size: 10px;
+        width: 100%;
+        height: 10vh;
+        position: relative;
+
+    }
+    
+}
+
+
+
